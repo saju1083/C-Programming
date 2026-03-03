@@ -1,0 +1,20 @@
+//Addition,Submition,Multiplication,Division Float Number...
+
+#include<stdio.h>
+float main()
+{
+float a,b,add,sub,mull,div;
+printf("enter the a:");
+scanf("%f", &a);
+printf("enter the b:");
+scanf("%f", &b);
+add=a+b;
+sub=a-b;
+mull=a*b;
+div=a/b;
+printf("\naddition:%f",add);
+printf("\nsubmition:%f",sub);
+printf("\nmulltiplication:%f",mull);
+printf("\ndivision:%f",div);
+return 0;
+}
