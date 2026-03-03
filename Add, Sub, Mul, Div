@@ -1,0 +1,20 @@
+//Addition,Submition,Multiplication,Division...
+
+#include<stdio.h>
+int main()
+{
+int a,b,add,sub,mull,div;
+printf("enter the a:");
+scanf("%d", &a);
+printf("enter the b:");
+scanf("%d", &b);
+add=a+b;
+sub=a-b;
+mull=a*b;
+div=a/b;
+printf("\naddition:%d",add);
+printf("\nsubmition:%d",sub);
+printf("\nmulltiplication:%d",mull);
+printf("\ndivision:%d",div);
+return 0;
+}
